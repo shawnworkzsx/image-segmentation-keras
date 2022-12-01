@@ -6,8 +6,8 @@ import keras.backend as K
 from tqdm import tqdm
 
 from .config import IMAGE_ORDERING
-from ..train import train
-from ..predict import predict, predict_multiple, evaluate
+from .train import train
+from .predict import predict, predict_multiple, evaluate
 
 
 # source m1 , dest m2
